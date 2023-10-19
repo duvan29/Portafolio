@@ -7,5 +7,3 @@ module.exports = {
       defaultLocale,
     },
   };
-
-module.exports = nextConfig

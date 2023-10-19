@@ -1,24 +1,24 @@
-"use-client"
-// import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { useRouter } from 'next/router';
+import { useTranslation } from 'next-translate';
 
-export default function LenguajeSelector() {
-  // const [selectedLanguage, setSelectedLanguage] = useState('es');
+function LanguageSelector() {
+  const router = useRouter();
+  const { lang } = useTranslation();
 
-  // useEffect(() => {
-  //   const changeLanguage = (e) => {
-  //     setSelectedLanguage(e.target.value);
-  //   };
-
-  //   console.log(selectedLanguage);
-
-  //   // Puedes realizar aquí cualquier lógica adicional basada en el idioma seleccionado.
-
-  // }, [selectedLanguage]);
+  const changeLanguage = (e) => {
+    const selectedLanguage = e.target.value;
+    router.push(router.pathname, router.asPath, { locale: selectedLanguage });
+  };
 
   return (
-    <select>
-      <option value="es">Español</option>
-      <option value="en">English</option>
-    </select>
+    <div>
+      <select onChange={changeLanguage} value={lang}>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
   );
 }
+
+export default LanguageSelector;
