@@ -1,9 +1,12 @@
+import LenguajeSelector from "@/components/LenguajeSelector";
+
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main>
       <h1>My Portafolio</h1>
+      <LenguajeSelector/>
     </main>
   )
 }

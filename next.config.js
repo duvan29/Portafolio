@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    i18n:{
-        defaultLocale: "es",
-        locales: ["es", "en"]
-    }
-}
+const { locales, defaultLocale } = require('./i18n/config')
+
+module.exports = {
+    i18n: {
+      locales,
+      defaultLocale,
+    },
+  };
 
 module.exports = nextConfig
