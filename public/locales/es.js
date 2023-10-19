@@ -1,4 +1,4 @@
 export default {
-  title: 'Holaa',
-  description: 'hola esto esta en español'
+  title: 'Hola',
+  description: 'hola esto esta en españollll'
 }

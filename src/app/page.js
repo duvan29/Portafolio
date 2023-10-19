@@ -1,13 +1,13 @@
 "use client";
 import { useRouter } from "next/navigation";
-import es from '/public/locales/es'
+import es from "/public/locales/es";
 import en from '/public/locales/en'
 import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === 'en' ? en : es;
+  const t = locale === 'es' ? es : en;
 
   return (
     <main className="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
