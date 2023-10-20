@@ -12,7 +12,7 @@ export default function AboutUs() {
       <div className="w-[60%] p-4">
         <div className="flex mb-2">
             <h1 className="text-4xl font-semibold">{t("title")}</h1>{" "}
-            <h1 className="text-4xl font-semibold dark:text-violeta text-moradoBlack">{t("name")}</h1>
+            <h1 className="text-4xl font-semibold dark:text-violeta text-moradoBlack ml-[5px]">{t("name")}</h1>
         </div>
         <div className="flex">
           <TypeAnimation
