@@ -2,6 +2,21 @@
   "Index": {
     "title": "Hello world!!",
     "subtitle": "How is it going?",
-    "alertMessage": "Something went wrong!"
+    "alertMessage": "Something went wrong!",
+    "bottonES": "Spanish",
+    "bottonEN": "English"
+  },
+  "Button": {
+    "bottonES": "Spanish",
+    "bottonEN": "English"
+  },
+  "About":{
+    "title": "Hello, I'm ",
+    "name": " Duvan Serrano",
+    "profesion": "I'm a",
+    "full": "Full Stack Developer",
+    "back": "Back End Developer",
+    "front": "Front End Developer",
+    "description":"I am a 19-year-old Colombian youth passionate about technology, known for my dedication and commitment in the field."
   }
 }

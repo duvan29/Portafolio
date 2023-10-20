@@ -3,5 +3,18 @@
     "title": "hollalalaa",
     "subtitle": "cmo estas",
     "alertMessage": "estas"
+  },
+  "Button": {
+    "bottonES": "Español",
+    "bottonEN": "Ingles"
+  },
+  "About":{
+    "title": "Hola mi nombre es",
+    "name": "Duvan Serrano",
+    "profesion": "Soy desarrollador",
+    "full": "Full Stack",
+    "back": "Back End",
+    "front": "Front End",
+    "description": "Soy un joven colombiano de 19 años apasionado por la tecnología, conocido por mi dedicación y compromiso en el campo."
   }
 }
