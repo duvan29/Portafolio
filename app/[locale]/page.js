@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
 import Header from "./components/Header";
-import Image from "next/image";
 import AboutUs from "./components/AboutUs";
 import Skills from "./components/Skills";
+import timeLineAndProyects from "./components/timeLineAndProyects";
 
 
 export default function Home() {
