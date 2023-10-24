@@ -43,7 +43,6 @@ export default function CardReviews() {
         <div className='flex flex-col'>
           <h3 className='text-[18px]'>userName</h3>
           <p className='text-[15px]'>rol</p>
-          {/* <div>{renderRatingStars()}</div> */}
         </div>
       </div>
     </div>
