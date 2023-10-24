@@ -1,14 +1,15 @@
-import { useTranslations } from 'next-intl';
 import React from 'react';
-import NetWorks from '../components/Networks';
 
 export default function ReviewsAndForm() {
 
     return (
-        <>
-            <div className='bg-gris-50 p-4 rounded-lg flex justify-evenly items-center'>
-
-            </div>
-        </>
+        <div className="w-full pt-5 flex justify-between items-stretch">
+          <div className="w-[50%] bg-gris-50 p-4 rounded-lg">
+            {/* <TimeLine/> */}
+          </div>
+          <div className="w-[50%] pl-4 rounded-lg flex flex-col">
+            {/* <Proyects/> */}
+          </div>
+      </div>
     );
 }
