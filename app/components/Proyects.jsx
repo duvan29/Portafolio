@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
+import NetWorks from './Networks';
 
 export default function Proyects() {
 
@@ -29,6 +30,9 @@ export default function Proyects() {
                 </svg>
                 </button>
                 <h3 className="text-center w-[100px] my-3">{i("certificates")}</h3>
+            </div>
+            <div>
+                <NetWorks/>
             </div>
         </>
     );

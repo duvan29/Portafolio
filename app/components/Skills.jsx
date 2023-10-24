@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Skills() {
   return (
-    <div className="w-full pt-5 flex justify-between items-center">
+    <div className="w-full pt-5 flex justify-between items-stretc">
       <div className="w-[49%] bg-gris-50 p-4 rounded-lg">
         <h1 className="text-2xl font-semibold text-center mb-5">FRONT-END</h1>
         <div className="flex flex-wrap justify-around">
