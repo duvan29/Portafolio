@@ -21,7 +21,7 @@ export default function CardReviews() {
     <div className="m-3 p-4 rounded-lg">
       <div className="mb-4">
         <p className="overflow-hidden text-[15px] ">
-        {t('reviewText')}
+        {t('reviews.reviewText')}
         </p>
       </div>
       <div className='flex justify-end '>
@@ -45,8 +45,8 @@ export default function CardReviews() {
           width={245}
           height={154}/>
         <div className='flex flex-col'>
-          <h3 className='text-[18px]'>{t("userName")}</h3>
-          <p className='text-[15px]'>{t('userRole')}</p>
+          <h3 className='text-[18px]'>{t("reviews.userName")}</h3>
+          <p className='text-[15px]'>{t('reviews.userRole')}</p>
         </div>
       </div>
     </div>

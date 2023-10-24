@@ -24,8 +24,32 @@
     "certificates": "Certificados"
   },
   "Reviews": {
-    "reviewText": "Anim dolor ad adipisicing sint nisi. Aute adipisicing ex consequat dolor cillum enim anim deserunt amet voluptate occaecat consequat. Voluptate deserunt officia aliqua ad adipisicing occaecat anim veniam dolor ut. Do deserunt mollit deserunt elit commodo quis. Ex ullamco ullamco commodo ut quis velit commodo culpa. Reprehenderit anim elit nisi quis ipsum id anim aliquip labore amet veniam. Sunt nostrud do fugiat ea.",
-    "userName": "Nombre de usuario",
-    "userRole": "Rol de usuario"
+    "reviews": [
+      {
+        "reviewText": "Primera reseña...",
+        "userName": "Usuario 1",
+        "userRole": "Rol 1",
+        "Imagen": "Hola"
+      },
+      {
+        "reviewText": "Segunda reseña...",
+        "userName": "Usuario 2",
+        "userRole": "Rol 2",
+        "Imagen": "Hola"
+      },
+      {
+        "reviewText": "Tercera reseña...",
+        "userName": "Usuario 3",
+        "userRole": "Rol 3",
+        "Imagen": "Hola"
+      },
+      {
+        "reviewText": "Cuarta reseña...",
+        "userName": "Usuario 4",
+        "userRole": "Rol 4",
+        "Imagen": "Hola"
+      }
+    ]
   }
+  
 }
