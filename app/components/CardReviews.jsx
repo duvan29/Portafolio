@@ -1,7 +1,11 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import React from 'react';
 
+
 export default function CardReviews() {
+  const t = useTranslations("Reviews");
+  
   return (
     <div>
     <div className="absolute -ml-[20px] w-[50px] h-[50px] flex justify-center items-center pb-[14px] pr-[12px] rotate-180">
@@ -17,7 +21,7 @@ export default function CardReviews() {
     <div className="m-3 p-4 rounded-lg">
       <div className="mb-4">
         <p className="overflow-hidden text-[15px] ">
-        Anim dolor ad adipisicing sint nisi. Aute adipisicing ex consequat dolor cillum enim anim deserunt amet voluptate occaecat consequat. Voluptate deserunt officia aliqua ad adipisicing occaecat anim veniam dolor ut. Do deserunt mollit deserunt elit commodo quis. Ex ullamco ullamco commodo ut quis velit commodo culpa. Reprehenderit anim elit nisi quis ipsum id anim aliquip labore amet veniam. Sunt nostrud do fugiat ea.
+        {t('reviewText')}
         </p>
       </div>
       <div className='flex justify-end '>
@@ -41,8 +45,8 @@ export default function CardReviews() {
           width={245}
           height={154}/>
         <div className='flex flex-col'>
-          <h3 className='text-[18px]'>userName</h3>
-          <p className='text-[15px]'>rol</p>
+          <h3 className='text-[18px]'>{t("userName")}</h3>
+          <p className='text-[15px]'>{t('userRole')}</p>
         </div>
       </div>
     </div>

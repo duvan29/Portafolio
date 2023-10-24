@@ -1,6 +1,10 @@
+"use client"
 import React from 'react';
 import Reviews from '../components/Reviews';
 import Form from '../components/Form';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import CardReviews from '../components/CardReviews';
 
 export default function ReviewsAndForm() {
 

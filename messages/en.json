@@ -24,5 +24,10 @@
   },
   "Certificate":{
     "certificates": "Certificates"
+  },
+  "Reviews": {
+    "reviewText": "Anim dolor ad adipisicing sint nisi. Aute adipisicing ex consequat dolor cillum enim anim deserunt amet voluptate occaecat consequat. Voluptate deserunt officia aliqua ad adipisicing occaecat anim veniam dolor ut. Do deserunt mollit deserunt elit commodo quis. Ex ullamco ullamco commodo ut quis velit commodo culpa. Reprehenderit anim elit nisi quis ipsum id anim aliquip labore amet veniam. Sunt nostrud do fugiat ea.",
+    "userName": "Nombre de usuario",
+    "userRole": "Rol de usuario"
   }
 }
