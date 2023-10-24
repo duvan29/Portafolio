@@ -17,6 +17,9 @@
     "front": "Front End",
     "description": "Soy un joven colombiano de 19 años apasionado por la tecnología, conocido por mi dedicación y compromiso en el campo."
   },
+  "TimeLine":{
+    "title": "LINEA DE TIEMPO"
+  },
   "Proyects":{
     "proyects": "Proyectos"
   },
