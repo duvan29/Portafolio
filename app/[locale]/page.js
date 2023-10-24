@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Header from "../components/Header";
 import AboutUs from "../views/AboutUs";
-import Skills from "../components/Skills";
+import Skills from "../views/Skills";
 import TimeLineAndProyects from "../views/timeLAndP";
 
 
