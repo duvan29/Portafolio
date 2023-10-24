@@ -1,8 +1,9 @@
 import { useTranslations } from "next-intl";
-import Header from "../components/Header";
+import Header from "../views/Header";
 import AboutUs from "../views/AboutUs";
 import Skills from "../views/Skills";
 import TimeLineAndProyects from "../views/timeLAndP";
+import ReviewsAndForm from "../views/ReviewsAndForm";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <AboutUs/>
         <Skills/>
         <TimeLineAndProyects/>
+        <ReviewsAndForm/>
       </div>
     </>
   );
