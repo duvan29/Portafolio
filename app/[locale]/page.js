@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
-import Header from "./components/Header";
-import AboutUs from "./components/AboutUs";
-import Skills from "./components/Skills";
-import timeLineAndProyects from "./components/timeLineAndProyects";
+import Header from "../components/Header";
+import AboutUs from "../components/AboutUs";
+import Skills from "../components/Skills";
+import TimeLineAndProyects from "../components/timeLAndP";
 
 
 export default function Home() {
@@ -10,11 +10,11 @@ export default function Home() {
 
   return (
     <>
-      <div className="xs:px-5 xl:px-[400px]">
+      <div className="xs:px-5 xl:px-[400px] pb-[20px]">
         <Header/>
         <AboutUs/>
         <Skills/>
-        <timeLineAndProyects/>
+        <TimeLineAndProyects/>
       </div>
     </>
   );

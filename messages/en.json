@@ -18,5 +18,11 @@
     "back": "Back End Developer",
     "front": "Front End Developer",
     "description":"I am a 19-year-old Colombian youth passionate about technology, known for my dedication and commitment in the field."
+  },
+  "Proyects":{
+    "proyects": "Proyects"
+  },
+  "Certificate":{
+    "certificates": "Certificates"
   }
 }
