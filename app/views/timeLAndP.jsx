@@ -1,5 +1,5 @@
-import Proyects from "./Proyects";
-import TimeLine from "./timeLine";
+import Proyects from "../components/Proyects";
+import TimeLine from "../components/timeLine";
 
 export default function TimeLineAndProyects() {
     return (
