@@ -55,5 +55,11 @@
         "Imagen": "Hola"
       }
     ]
+  },
+  "Form":{
+    "title": "Contact",
+    "Name": "Name",
+    "Email": "Email",
+    "Message": "Menssage"
   }
 }
