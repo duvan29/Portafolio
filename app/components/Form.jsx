@@ -5,7 +5,7 @@ export default function Form() {
   const t = useTranslations("Form");
   return (
     <div className="w-full p-5 flex flex-col">
-      <h1 className="text-xl mb-3">{t("title")}</h1>
+      <h1 className="text-2xl font-semibold text-center mb-5">{t("title")}</h1>
       <form>
         <div className="mb-3">
           <label htmlFor="name" className="text-sm mb-1">{t("Name")}</label>
@@ -36,7 +36,7 @@ export default function Form() {
             className="border p-2 w-full h-24"
           />
         </div>
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded">Enviar</button>
+        <button type="submit" className="bg-blue-500 text-white p-2 rounded">{t("Button")}</button>
       </form>
     </div>
   );
