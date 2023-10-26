@@ -58,7 +58,8 @@
     "title": "Contacto",
     "Name": "Nombre",
     "Email": "Email",
-    "Message": "Mensaje"
+    "Message": "Mensaje",
+    "Button": "Submit"
   }
   
 }

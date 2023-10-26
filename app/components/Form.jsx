@@ -28,7 +28,7 @@ export default function Form() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="message" className="text-sm mb-1">{t("Menssage")}</label>
+          <label htmlFor="message" className="text-sm mb-1">{t("Message")}</label>
           <textarea
             id="message"
             name="message"
