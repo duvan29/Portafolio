@@ -1,12 +1,14 @@
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 export default function Form() {
+  const t = useTranslations("Form");
   return (
     <div className="w-full p-5 flex flex-col">
-      <h1 className="text-xl mb-3">Formulario de Contacto</h1>
+      <h1 className="text-xl mb-3">{t("title")}</h1>
       <form>
         <div className="mb-3">
-          <label htmlFor="name" className="text-sm mb-1">Nombre:</label>
+          <label htmlFor="name" className="text-sm mb-1">{t("Name")}</label>
           <input
             type="text"
             id="name"
@@ -16,7 +18,7 @@ export default function Form() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="contact" className="text-sm mb-1">Email o Teléfono:</label>
+          <label htmlFor="contact" className="text-sm mb-1">{t("Email")}</label>
           <input
             type="text"
             id="contact"
@@ -26,7 +28,7 @@ export default function Form() {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="message" className="text-sm mb-1">Mensaje:</label>
+          <label htmlFor="message" className="text-sm mb-1">{t("title")}</label>
           <textarea
             id="message"
             name="message"
