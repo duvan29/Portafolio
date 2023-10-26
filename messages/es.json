@@ -53,6 +53,12 @@
         "Imagen": "Hola"
       }
     ]
+  },
+  "Form":{
+    "title": "Contacto",
+    "Name": "Nombre",
+    "Email": "Email",
+    "Message": "Mensaje"
   }
   
 }
