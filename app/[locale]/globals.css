@@ -27,6 +27,7 @@ label {
 
 /* Estilos para los inputs y textarea */
 input, textarea {
+  margin-top: 5px;
   background: none;
   border-bottom: 2px solid white; /* Borde blanco */
   transition: border-color 0.3s;
@@ -35,10 +36,17 @@ input, textarea {
 
 
 /* Estilos para el borde inferior en los campos de entrada */
-input[type="text"], textarea {
+input[type="text"] {
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s;
   border-bottom: 2px solid white;
+}
+
+textarea {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 input[type="text"]:focus, input[type="text"]:hover,
