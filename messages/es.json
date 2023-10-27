@@ -27,32 +27,32 @@
     "certificates": "Certificados"
   },
   "Reviews": {
-    "reviews": [
-      {
+    "reviews": {
+      "Card1":{
         "reviewText": "Primera reseña...",
         "userName": "Usuario 1",
         "userRole": "Rol 1",
         "Imagen": "Hola"
       },
-      {
+      "Card2":{
         "reviewText": "Segunda reseña...",
         "userName": "Usuario 2",
         "userRole": "Rol 2",
         "Imagen": "Hola"
       },
-      {
+      "Card3":{
         "reviewText": "Tercera reseña...",
         "userName": "Usuario 3",
         "userRole": "Rol 3",
         "Imagen": "Hola"
       },
-      {
+      "Card4":{
         "reviewText": "Cuarta reseña...",
         "userName": "Usuario 4",
         "userRole": "Rol 4",
         "Imagen": "Hola"
       }
-    ]
+    }
   },
   "Form":{
     "title": "Contacto",
