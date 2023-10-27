@@ -14,7 +14,7 @@ export default function Reviews() {
           Imagen: t("reviews.Card1.Imagen"),
         }}
       />
-      <CardReviews
+      {/* <CardReviews
         review={{
           reviewText: t("reviews.Card2.reviewText"),
           userName: t("reviews.Card2.userName"),
@@ -37,7 +37,7 @@ export default function Reviews() {
           userRole: t("reviews.Card4.userRole"),
           Imagen: t("reviews.Card4.Imagen"),
         }}
-      />
+      /> */}
     </div>
   );
 }
