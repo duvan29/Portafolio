@@ -30,7 +30,6 @@ input, textarea {
   margin-top: 10px;
   background: none;
   border-bottom: 2px solid white; /* Borde blanco */
-  transition: border-color 0.3s;
 }
 
 
