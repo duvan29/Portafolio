@@ -60,7 +60,7 @@
     "title": "Contact",
     "Name": "Name",
     "Email": "Email",
-    "Message": "Menssage",
-    "Button": "Enviar"
+    "Message": "Message",
+    "Button": "Submit"
   }
 }
