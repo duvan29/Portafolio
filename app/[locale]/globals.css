@@ -17,3 +17,42 @@
 
 @layer utilities {
 }
+
+/* styles.css */
+
+/* Estilos para el label */
+label {
+  background: none;
+}
+
+/* Estilos para los inputs y textarea */
+input, textarea {
+  background: none;
+  border-bottom: 2px solid white; /* Borde blanco */
+  transition: border-color 0.3s;
+}
+
+
+
+/* Estilos para el borde inferior en los campos de entrada */
+input[type="text"], textarea {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+  border-bottom: 2px solid white;
+}
+
+input[type="text"]:focus, input[type="text"]:hover,
+textarea:focus, textarea:hover {
+  border-color: #7f00b2; /* Morado */
+}
+
+/* Estilos para el botón */
+button {
+  background: none;
+  border: none;
+}
+
+button:hover, button:focus {
+  /* border: 2px solid #7f00b2; Morado */
+  background-color: transparent;
+}

@@ -13,7 +13,7 @@ export default function Form() {
             type="text"
             id="name"
             name="name"
-            className="border p-2 w-full rounded-md transition duration-300 focus:border-moradoBlack hover:border-violeta"
+            className="p-2 w-full"
           />
         </div>
         <div className="mb-3">
@@ -22,7 +22,7 @@ export default function Form() {
             type="text"
             id="contact"
             name="contact"
-            className="border p-2 w-full rounded-md transition duration-300 focus:border-moradoBlack hover:border-violeta"
+            className="p-2 w-full"
           />
         </div>
         <div className="mb-3">
@@ -30,14 +30,15 @@ export default function Form() {
           <textarea
             id="message"
             name="message"
-            className="border p-2 w-full h-24 rounded-md transition duration-300 focus:border-moradoBlack hover:border-violeta"
+            className="p-2 w-full h-24"
           />
         </div>
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded-md hover:bg-violeta">
-          {t("Button")}
-        </button>
+        <div className='flex justify-center'>
+          <button type="submit" className="bg-moradoBlack-50 text-white text-center py-2 px-8 rounded-full hover:bg-violeta">
+            {t("Button")}
+          </button>
+        </div>
       </form>
     </div>
   );
 }
-
